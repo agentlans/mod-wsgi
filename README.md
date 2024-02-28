@@ -19,7 +19,7 @@ To deploy a webapp:
 5. In [`helloworldapp`](helloworldapp), run `make build` and `make run`
 6. Open a web browser and visit `localhost` to see your app.
 
-You shouldn't need this but to build the base image `agentlans/mod-wsgi`:
+You shouldn't need this but to build the base image [`agentlans/mod-wsgi`](https://hub.docker.com/r/agentlans/mod-wsgi):
 ```bash
 cd base-image
 bash Build.sh
